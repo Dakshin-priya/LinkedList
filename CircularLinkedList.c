@@ -23,7 +23,6 @@ void insert_begin(int element) {
         head = newnode;
     }
 }
-
 void insert_end(int element) {
     struct node *newnode = (struct node *)malloc(sizeof(struct node));
     newnode->data = element;
