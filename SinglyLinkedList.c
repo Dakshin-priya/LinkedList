@@ -5,7 +5,6 @@ struct node {
     int data;
     struct node* link;
 };
-
 struct node* head = NULL;
 
 // Insert at the front
