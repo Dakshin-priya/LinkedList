@@ -14,7 +14,6 @@ void insert_front(int e) {
     new_node->link = head;
     head = new_node;
 }
-
 // Insert at a specific position (1-based index)
 void insert_middle(int e, int n) {
     if (n <= 1 || head == NULL) {
