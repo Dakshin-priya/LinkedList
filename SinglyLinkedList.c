@@ -6,7 +6,6 @@ struct node {
     struct node* link;
 };
 struct node* head = NULL;
-
 // Insert at the front
 void insert_front(int e) {
     struct node* new_node = (struct node*)malloc(sizeof(struct node));
