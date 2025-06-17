@@ -139,7 +139,6 @@ int delete_middle(int pos) {
     free(temp);
     return data;
 }
-
 void display() {
     if (head == NULL) {
         printf("List is empty\n");
