@@ -38,7 +38,6 @@ void insert_end(int element) {
         newnode->next = head;
     }
 }
-
 void insert_middle(int element, int pos) {
     if (pos <= 1) {
         insert_begin(element);
