@@ -5,7 +5,6 @@ struct node {
     int data;
     struct node *next;
 } *top = NULL;
-
 // Function to push an item onto the stack
 void push(int item) {
     struct node *newnode = (struct node *)malloc(sizeof(struct node));
