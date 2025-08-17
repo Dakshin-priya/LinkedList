@@ -13,7 +13,6 @@ void push(int item) {
     newnode->next = top;  // Link the new node to the current top
     top = newnode;        // Update the top to the new node
 }
-
 // Function to pop an item from the stack
 void pop() {
     if (top == NULL)
