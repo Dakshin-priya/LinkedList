@@ -30,7 +30,6 @@ void peek() {
         printf("Top element: %d\n", top->data);
     }
 }
-
 // Function to display the stack elements
 void display() {
     if (top == NULL)
